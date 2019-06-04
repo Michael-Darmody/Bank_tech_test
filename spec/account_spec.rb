@@ -20,5 +20,9 @@ RSpec.describe Account do
       subject.deposite(20)
       expect { subject.withdraw(10) }.to change { subject.balance }.by(-10)
     end
+
+    it 'raises an error if there are no funds to withdraw' do
+      expect { subject.withdraw(10) }.to raise_error "You have insufficient funds in your account"
+    end
   end
 end
