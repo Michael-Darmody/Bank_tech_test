@@ -14,4 +14,11 @@ RSpec.describe Account do
       expect { subject.deposite(10) }.to change { subject.balance }.by(10)
     end
   end
+
+  describe '#withdraw' do
+    it 'lowers the total balance by a set amount' do
+      subject.deposite(20)
+      expect { subject.withdraw(10) }.to change { subject.balance }.by(-10)
+    end
+  end
 end

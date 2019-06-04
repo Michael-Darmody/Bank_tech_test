@@ -18,6 +18,13 @@
         4,
         null,
         null,
+        null,
+        1,
+        1,
+        1,
+        4,
+        null,
+        null,
         null
       ],
       "/Users/mike/Challenges/bank_tech_test/lib/account.rb": [
@@ -25,6 +32,10 @@
         null,
         1,
         1,
+        null,
+        1,
+        3,
+        null,
         null,
         1,
         2,
@@ -39,6 +50,6 @@
 
       ]
     },
-    "timestamp": 1559639289
+    "timestamp": 1559640455
   }
 }
