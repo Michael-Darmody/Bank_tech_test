@@ -1,0 +1,44 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/Users/mike/Challenges/bank_tech_test/spec/account_spec.rb": [
+        null,
+        null,
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        null,
+        1,
+        1,
+        4,
+        null,
+        null,
+        null
+      ],
+      "/Users/mike/Challenges/bank_tech_test/lib/account.rb": [
+        null,
+        null,
+        1,
+        1,
+        null,
+        1,
+        2,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/mike/Challenges/bank_tech_test/spec/feature_tests_spec.rb": [
+
+      ]
+    },
+    "timestamp": 1559639289
+  }
+}

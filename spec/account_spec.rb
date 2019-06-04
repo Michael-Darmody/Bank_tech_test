@@ -8,4 +8,10 @@ RSpec.describe Account do
       expect(subject.balance).to eq(0)
     end
   end
+
+  describe '#deposite' do
+    it 'raises the total balance by a set amount' do
+      expect { subject.deposite(10) }.to change { subject.balance }.by(10)
+    end
+  end
 end

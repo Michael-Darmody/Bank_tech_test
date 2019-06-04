@@ -6,4 +6,8 @@ class Account
   def initialize
     @balance = 0
   end
+
+  def deposite(number)
+    @balance += number
+  end
 end
