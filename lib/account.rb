@@ -7,13 +7,13 @@ class Account
     @balance = 0
   end
 
-  def deposite(number)
-    @balance += number
+  def deposit(amount)
+    @balance += amount
   end
 
-  def withdraw(number)
-    if @balance >= number && number <= @balance
-      @balance -= number
+  def withdraw(amount)
+    if @balance >= amount && amount <= @balance
+      @balance -= amount
     else
       raise "You have insufficient funds in your account"
     end
