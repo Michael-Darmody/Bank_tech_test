@@ -72,10 +72,10 @@
         1,
         null,
         1,
-        7,
-        7,
-        7,
-        7,
+        8,
+        8,
+        8,
+        8,
         null,
         null
       ],
@@ -95,6 +95,27 @@
       ],
       "/Users/mike/Challenges/bank_tech_test/spec/feature_tests_spec.rb": [
 
+      ],
+      "/Users/mike/Challenges/bank_tech_test/spec/printer_spec.rb": [
+        1,
+        null,
+        1,
+        2,
+        2,
+        2,
+        null,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/mike/Challenges/bank_tech_test/lib/printer.rb": [
+        null,
+        1,
+        1,
+        1,
+        null,
+        null
       ],
       "/Users/mike/Challenges/bank_tech_test/spec/transaction_history_spec.rb": [
         1,
@@ -139,6 +160,6 @@
         null
       ]
     },
-    "timestamp": 1559839840
+    "timestamp": 1559844206
   }
 }
