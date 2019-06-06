@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 require_relative 'transaction'
 require_relative 'transaction_history'
+require_relative 'printer'
 
 class Account
   attr_reader :balance, :transactions
@@ -24,6 +25,10 @@ class Account
     else
       raise "You have insufficient funds in your account"
     end
+  end
+
+  def print_statement(printer = Printer)
+    printer.new(@transactions.transactions).print
   end
 
 private
