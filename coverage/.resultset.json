@@ -115,6 +115,13 @@
         1,
         1,
         null,
+        null,
+        1,
+        0,
+        0,
+        0,
+        null,
+        null,
         null
       ],
       "/Users/mike/Challenges/bank_tech_test/spec/transaction_history_spec.rb": [
@@ -160,6 +167,6 @@
         null
       ]
     },
-    "timestamp": 1559844206
+    "timestamp": 1559844867
   }
 }
