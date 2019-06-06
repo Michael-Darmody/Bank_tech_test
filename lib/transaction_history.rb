@@ -5,4 +5,8 @@ class TransactionHistory
   def initialize
     @transactions = []
   end
+
+  def record(transaction)
+    @transactions.push(transaction)
+  end
 end

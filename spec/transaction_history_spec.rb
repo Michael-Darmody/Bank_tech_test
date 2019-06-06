@@ -7,4 +7,10 @@ RSpec.describe TransactionHistory do
   it 'Can be initialized with an empty array' do
     expect(subject.transactions).to eq([])
   end
+
+  describe '#record' do
+    it 'pushes a transaction into the list of transactions' do
+      expect(subject.record(a_transaction)).to_not be_empty
+    end
+  end
 end
